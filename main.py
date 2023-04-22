@@ -41,10 +41,10 @@ num_2 = int(input("Please enter the second number:"))
 if choice =='1':
     print(num_1,"+",num_2,"=",add(num_1, num_2))
 elif choice=='2':
-    print(num_1 + "-" + num_2 + "=" + sub(num_1, num_2))
+    print(num_1 , "-" , num_2 , "=" , sub(num_1, num_2))
 elif choice=='3':
-    print(num_1+"*"+num_2+"="+mul(num_1, num_2))
+    print(num_1,"*",num_2,"=",mul(num_1, num_2))
 elif choice=='4':
-    print(num_1 + "/" + num_2 + "=" + div(num_1, num_2))
+    print(num_1 , "/", num_2 , "=", div(num_1, num_2))
 else:
-    print(choice+": This Option is invalid")
+    print(choice,": This Option is invalid")
